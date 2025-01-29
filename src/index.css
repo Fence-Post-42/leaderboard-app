@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Button Styling */
+button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-active {
+  background-color: #3498db;
+  color: white;
+}
+
+.button-inactive {
+  background-color: #444;
+  color: white;
+}
+
